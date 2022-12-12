@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# openssh = "0.9.8"
+# openssh-sftp-client = "0.12.2"
+ssh2 = "0.9.3"
+clap = { version = "4.0.29", features = ["derive"] }
