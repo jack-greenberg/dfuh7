@@ -10,3 +10,4 @@ edition = "2021"
 # openssh-sftp-client = "0.12.2"
 ssh2 = "0.9.3"
 clap = { version = "4.0.29", features = ["derive"] }
+rsyn = "0.0.1"

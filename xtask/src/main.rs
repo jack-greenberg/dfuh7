@@ -8,8 +8,9 @@ use std::io::Write;
 use clap::Parser;
 // use openssh::{Session, KnownHosts, Stdio};
 // use openssh_sftp_client::Sftp;
-use ssh2::Session;
-use std::net::TcpStream;
+// use ssh2::Session;
+// use std::net::TcpStream;
+use rsyn::Client;
 
 use std::io::BufReader;
 use std::io::prelude::*;
